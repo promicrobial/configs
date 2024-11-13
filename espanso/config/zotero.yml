@@ -1,0 +1,7 @@
+# Zotero espanso configuration file
+# See docs https://espanso.org/docs/configuration/app-specific-configurations/
+filter_class: "Zotero"
+backend: Inject
+backspace_delay: 3
+includes:
+  - "../match/base.yml"

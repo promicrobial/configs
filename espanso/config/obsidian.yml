@@ -1,0 +1,8 @@
+# Obsidian espanso configuration file
+# See docs https://espanso.org/docs/configuration/app-specific-configurations/
+
+filter_class: "obsidian"
+backend: Auto
+backspace_delay: 8
+includes:
+  - "../match/base.yml"
