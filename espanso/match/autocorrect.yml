@@ -1,0 +1,2696 @@
+# Autocorrect dictionary
+matches:
+
+  - trigger: "interrpretation"
+    replace: "interpretation"
+
+  - trigger: "diveristy"
+    replace: "diversity"
+
+  - trigger: "rejion"
+    replace: "rejoin"
+
+  - trigger: "speices"
+    replace: "species"
+
+  - trigger: "differenital"
+    replace: "differential"
+
+  - trigger: "perfomred"
+    replace: "performed"
+
+  - trigger: "abotu"
+    replace: "about"
+
+  - trigger: "abouta"
+    replace: "about a"
+
+  - trigger: "aboutit"
+    replace: "about it"
+
+  - trigger: "abscence"
+    replace: "absence"
+
+  - trigger: "accesories"
+    replace: "accessories"
+
+  - trigger: "accidant"
+    replace: "accident"
+
+  - trigger: "accomodate"
+    replace: "accommodate"
+
+  - trigger: "accordingto"
+    replace: "according to"
+
+  - trigger: "accross"
+    replace: "across"
+
+  - trigger: "acheive"
+    replace: "achieve"
+
+  - trigger: "acheived"
+    replace: "achieved"
+
+  - trigger: "acheiving"
+    replace: "achieving"
+
+  - trigger: "acn"
+    replace: "can"
+
+  - trigger: "acommodate"
+    replace: "accommodate"
+
+  - trigger: "acomodate"
+    replace: "accommodate"
+
+  - trigger: "actualyl"
+    replace: "actually"
+
+  - trigger: "additinal"
+    replace: "additional"
+
+  - trigger: "addtional"
+    replace: "additional"
+
+  - trigger: "adequit"
+    replace: "adequate"
+
+  - trigger: "adequite"
+    replace: "adequate"
+
+  - trigger: "adn"
+    replace: "and"
+
+  - trigger: "advanage"
+    replace: "advantage"
+
+  - trigger: "affraid"
+    replace: "afraid"
+
+  - trigger: "afterthe"
+    replace: "after the"
+
+  - trigger: "againstt he"
+    replace: "against the"
+
+  - trigger: "aggresive"
+    replace: "aggressive"
+
+  - trigger: "agian"
+    replace: "again"
+
+  - trigger: "agreemeent"
+    replace: "agreement"
+
+  - trigger: "agreemeents"
+    replace: "agreements"
+
+  - trigger: "agreemnet"
+    replace: "agreement"
+
+  - trigger: "agreemnets"
+    replace: "agreements"
+
+  - trigger: "agressive"
+    replace: "aggressive"
+
+  - trigger: "ahppen"
+    replace: "happen"
+
+  - trigger: "ahve"
+    replace: "have"
+
+  - trigger: "allready"
+    replace: "already"
+
+  - trigger: "allwasy"
+    replace: "always"
+
+  - trigger: "allwyas"
+    replace: "always"
+
+  - trigger: "almots"
+    replace: "almost"
+
+  - trigger: "almsot"
+    replace: "almost"
+
+  - trigger: "alomst"
+    replace: "almost"
+
+  - trigger: "alot"
+    replace: "a lot"
+
+  - trigger: "alraedy"
+    replace: "already"
+
+  - trigger: "alreayd"
+    replace: "already"
+
+  - trigger: "alreday"
+    replace: "already"
+
+  - trigger: "alwasy"
+    replace: "always"
+
+  - trigger: "alwats"
+    replace: "always"
+
+  - trigger: "alway"
+    replace: "always"
+
+  - trigger: "alwyas"
+    replace: "always"
+
+  - trigger: "amde"
+    replace: "made"
+
+  - trigger: "Ameria"
+    replace: "America"
+
+  - trigger: "amke"
+    replace: "make"
+
+  - trigger: "amkes"
+    replace: "makes"
+
+  - trigger: "amouunt"
+    replace: "amount"
+
+  - trigger: " amr "
+    replace: " AMR "
+
+  - trigger: " amr."
+    replace: " AMR."
+
+  - trigger: "anbd"
+    replace: "and"
+
+  - trigger: "andone"
+    replace: "and one"
+
+  - trigger: "andt he"
+    replace: "and the"
+
+  - trigger: "andteh"
+    replace: "and the"
+
+  - trigger: "andthe"
+    replace: "and the"
+
+  - trigger: "anothe"
+    replace: "another"
+
+  - trigger: "ansewer"
+    replace: "answer"
+
+  - trigger: " anual "
+    replace: "annual"
+
+  - trigger: "anythnig"
+    replace: "anything"
+
+  - trigger: "apparant"
+    replace: "apparent"
+
+  - trigger: "apparnetly"
+    replace: "apparently"
+
+  - trigger: "apparrent"
+    replace: "apparent"
+
+  - trigger: "appearence"
+    replace: "appearance"
+
+  - trigger: "appeares"
+    replace: "appears"
+
+  - trigger: "applicaiton"
+    replace: "application"
+
+  - trigger: "applicaitons"
+    replace: "applications"
+
+  - trigger: "applyed"
+    replace: "applied"
+
+  - trigger: "appointiment"
+    replace: "appointment"
+
+  - trigger: "appropiate"
+    replace: "appropriate"
+
+  - trigger: "approrpiate"
+    replace: "appropriate"
+
+  - trigger: "approrpriate"
+    replace: "appropriate"
+
+  - trigger: "aproach"
+    replace: "approach"
+
+  - trigger: "aquisition"
+    replace: "acquisition"
+
+  - trigger: "aquisitions"
+    replace: "acquisitions"
+
+  - trigger: "arguement"
+    replace: "argument"
+
+  - trigger: "arguements"
+    replace: "arguments"
+
+  - trigger: "arond"
+    replace: "around"
+
+  - trigger: "artical"
+    replace: "article"
+
+  - trigger: "articel"
+    replace: "article"
+
+  - trigger: "asdvertising"
+    replace: "advertising"
+
+  - trigger: "askt he"
+    replace: "ask the"
+
+  - trigger: "atention"
+    replace: "attention"
+
+  - trigger: "atmospher"
+    replace: "atmosphere"
+
+  - trigger: "attachement"
+    replace: "attachment"
+
+  - trigger: "attachements"
+    replace: "attachments"
+
+  - trigger: "attentioin"
+    replace: "attention"
+
+  - trigger: "atthe"
+    replace: "at the"
+
+  - trigger: "audeince"
+    replace: "audience"
+
+  - trigger: "audiance"
+    replace: "audience"
+
+  - trigger: "avaiable"
+    replace: "available"
+
+  - trigger: "availalbe"
+    replace: "available"
+
+  - trigger: "awya"
+    replace: "away"
+
+  - trigger: "aywa"
+    replace: "away"
+
+  - trigger: "bakc"
+    replace: "back"
+
+  - trigger: "balence"
+    replace: "balance"
+
+  - trigger: "ballance"
+    replace: "balance"
+
+  - trigger: "baout"
+    replace: "about"
+
+  - trigger: "bcak"
+    replace: "back"
+
+  - trigger: "beacuse"
+    replace: "because"
+
+  - trigger: "becasue"
+    replace: "because"
+
+  - trigger: "becaus"
+    replace: "because"
+
+  - trigger: "becausea"
+    replace: "because a"
+
+  - trigger: "becauseof"
+    replace: "because of"
+
+  - trigger: "becausethe"
+    replace: "because the"
+
+  - trigger: "becauseyou"
+    replace: "because you"
+
+  - trigger: "becomeing"
+    replace: "becoming"
+
+  - trigger: "becomming"
+    replace: "becoming"
+
+  - trigger: "becuase"
+    replace: "because"
+
+  - trigger: "becuse"
+    replace: "because"
+
+  - trigger: "befoer"
+    replace: "before"
+
+  - trigger: "beggining"
+    replace: "beginning"
+
+  - trigger: "begining"
+    replace: "beginning"
+
+  - trigger: "beginining"
+    replace: "beginning"
+
+  - trigger: "beleiev"
+    replace: "believe"
+
+  - trigger: "beleieve"
+    replace: "believe"
+
+  - trigger: "beleif"
+    replace: "belief"
+
+  - trigger: "beleive"
+    replace: "believe"
+
+  - trigger: "beleived"
+    replace: "believed"
+
+  - trigger: "beleives"
+    replace: "believes"
+
+  - trigger: "benifit"
+    replace: "benefit"
+
+  - trigger: "benifits"
+    replace: "benefits"
+
+  - trigger: "betwen"
+    replace: "between"
+
+  - trigger: "beutiful"
+    replace: "beautiful"
+
+  - trigger: "birhtday"
+    replace: "birthday"
+
+  - trigger: "birhtdays"
+    replace: "birthdays"
+
+  - trigger: "blase"
+    replace: "blasé"
+
+  - trigger: "boxs"
+    replace: "boxes"
+
+  - trigger: "braek"
+    replace: "break"
+
+  - trigger: "braeks"
+    replace: "breaks"
+
+  - trigger: "breackage"
+    replace: "breakage"
+
+  - trigger: "breackages"
+    replace: "breakages"
+
+  - trigger: "brodcast"
+    replace: "broadcast"
+
+  - trigger: "butthe"
+    replace: "but the"
+
+  - trigger: "bve"
+    replace: "be"
+
+  - trigger: "byt he"
+    replace: "by the"
+
+  - trigger: "caharcter"
+    replace: "character"
+
+  - trigger: "calcualted"
+    replace: "calculated"
+
+  - trigger: "calcuating"
+    replace: "calculating"
+
+  - trigger: "calcullated"
+    replace: "calculated"
+
+  - trigger: "calulated"
+    replace: "calculated"
+
+  - trigger: "candidtae"
+    replace: "candidate"
+
+  - trigger: "candidtaes"
+    replace: "candidates"
+
+  - trigger: "catagory"
+    replace: "category"
+
+  - trigger: "categiory"
+    replace: "category"
+
+  - trigger: "ceritifcate"
+    replace: "certificate"
+
+  - trigger: "ceritifcates"
+    replace: "certificates"
+
+  - trigger: "certian"
+    replace: "certain"
+
+  - trigger: "challange"
+    replace: "challenge"
+
+  - trigger: "challanges"
+    replace: "challenges"
+
+  - trigger: "chaneg"
+    replace: "change"
+
+  - trigger: "chanegs"
+    replace: "changes"
+
+  - trigger: "changable"
+    replace: "changeable"
+
+  - trigger: "changeing"
+    replace: "changing"
+
+  - trigger: "changng"
+    replace: "changing"
+
+  - trigger: "charachter"
+    replace: "character"
+
+  - trigger: "charachters"
+    replace: "characters"
+
+  - trigger: "charactor"
+    replace: "character"
+
+  - trigger: "charecter"
+    replace: "character"
+
+  - trigger: "charector"
+    replace: "character"
+
+  - trigger: "cheif"
+    replace: "chief"
+
+  - trigger: "chekc"
+    replace: "check"
+
+  - trigger: "chnage"
+    replace: "change"
+
+  - trigger: "cieling"
+    replace: "ceiling"
+
+  - trigger: "circut"
+    replace: "circuit"
+
+  - trigger: "claer"
+    replace: "clear"
+
+  - trigger: "claered"
+    replace: "cleared"
+
+  - trigger: "claerly"
+    replace: "clearly"
+
+  - trigger: "cliant"
+    replace: "client"
+
+  - trigger: "cliche"
+    replace: "cliché"
+
+  - trigger: "cna"
+    replace: "can"
+
+  - trigger: "colection"
+    replace: "collection"
+
+  - trigger: "comanies"
+    replace: "companies"
+
+  - trigger: "comany"
+    replace: "company"
+
+  - trigger: "comapnies"
+    replace: "companies"
+
+  - trigger: "comapny"
+    replace: "company"
+
+  - trigger: "combintation"
+    replace: "combination"
+
+  - trigger: "comited"
+    replace: "committed"
+
+  - trigger: "comittee"
+    replace: "committee"
+
+  - trigger: "commadn"
+    replace: "command"
+
+  - trigger: "comming"
+    replace: "coming"
+
+  - trigger: "commitee"
+    replace: "committee"
+
+  - trigger: "committe"
+    replace: "committee"
+
+  - trigger: "committment"
+    replace: "commitment"
+
+  - trigger: "committments"
+    replace: "commitments"
+
+  - trigger: "committy"
+    replace: "committee"
+
+  - trigger: "comntain"
+    replace: "contain"
+
+  - trigger: "comntains"
+    replace: "contains"
+
+  - trigger: "compair"
+    replace: "compare"
+
+  - trigger: "compleated"
+    replace: "completed"
+
+  - trigger: "compleatly"
+    replace: "completely"
+
+  - trigger: "compleatness"
+    replace: "completeness"
+
+  - trigger: "completly"
+    replace: "completely"
+
+  - trigger: "completness"
+    replace: "completeness"
+
+  - trigger: "composate"
+    replace: "composite"
+
+  - trigger: "comtain"
+    replace: "contain"
+
+  - trigger: "comtains"
+    replace: "contains"
+
+  - trigger: "comunicate"
+    replace: "communicate"
+
+  - trigger: "comunity"
+    replace: "community"
+
+  - trigger: "condolances"
+    replace: "condolences"
+
+  - trigger: "conected"
+    replace: "connected"
+
+  - trigger: "conferance"
+    replace: "conference"
+
+  - trigger: "confirmmation"
+    replace: "confirmation"
+
+  - trigger: "considerit"
+    replace: "considerate"
+
+  - trigger: "considerite"
+    replace: "considerate"
+
+  - trigger: "consonent"
+    replace: "consonant"
+
+  - trigger: "conspiricy"
+    replace: "conspiracy"
+
+  - trigger: "consultent"
+    replace: "consultant"
+
+  - trigger: "convertable"
+    replace: "convertible"
+
+  - trigger: "cooparate"
+    replace: "cooperate"
+
+  - trigger: "cooporate"
+    replace: "cooperate"
+
+  - trigger: "corproation"
+    replace: "corporation"
+
+  - trigger: "corproations"
+    replace: "corporations"
+
+  - trigger: "corruptable"
+    replace: "corruptible"
+
+  - trigger: "cotten"
+    replace: "cotton"
+
+  - trigger: "coudl"
+    replace: "could"
+
+  - trigger: "could of been"
+    replace: "could have been"
+
+  - trigger: "could of had"
+    replace: "could have had"
+
+  - trigger: "couldnt"
+    replace: "couldn’t"
+
+  - trigger: "couldthe"
+    replace: "could the"
+
+  - trigger: "cpoy"
+    replace: "copy"
+
+  - trigger: "creme"
+    replace: "crème"
+
+  - trigger: "crysys"
+    replace: "crisis"
+
+  - trigger: "ctaegory"
+    replace: "category"
+
+  - trigger: "cummulative"
+    replace: "cumulative"
+
+  - trigger: "cusotmer"
+    replace: "customer"
+
+  - trigger: "cusotmers"
+    replace: "customers"
+
+  - trigger: "cutsomer"
+    replace: "customer"
+
+  - trigger: "cutsomers"
+    replace: "customer"
+
+  - trigger: "cxan"
+    replace: "can"
+
+  - trigger: "danceing"
+    replace: "dancing"
+
+  - trigger: "dcument"
+    replace: "document"
+
+  - trigger: "deatils"
+    replace: "details"
+
+  - trigger: "decison"
+    replace: "decision"
+
+  - trigger: "decisons"
+    replace: "decisions"
+
+  - trigger: "decor"
+    replace: "décor"
+
+  - trigger: "defendent"
+    replace: "defendant"
+
+  - trigger: "deficent"
+    replace: "deficient"
+
+  - trigger: "definately"
+    replace: "definitely"
+
+  - trigger: "deleteing"
+    replace: "deleting"
+
+  - trigger: "deptartment"
+    replace: "department"
+
+  - trigger: "desicion"
+    replace: "decision"
+
+  - trigger: "desicions"
+    replace: "decisions"
+
+  - trigger: "desision"
+    replace: "decision"
+
+  - trigger: "desisions"
+    replace: "decisions"
+
+  - trigger: "develeoprs"
+    replace: "developers"
+
+  - trigger: "devellop"
+    replace: "develop"
+
+  - trigger: "develloped"
+    replace: "developed"
+
+  - trigger: "develloper"
+    replace: "developer"
+
+  - trigger: "devellopers"
+    replace: "developers"
+
+  - trigger: "develloping"
+    replace: "developing"
+
+  - trigger: "devellopment"
+    replace: "development"
+
+  - trigger: "devellopments"
+    replace: "developments"
+
+  - trigger: "devellops"
+    replace: "develop"
+
+  - trigger: "develope"
+    replace: "develop"
+
+  - trigger: "developement"
+    replace: "development"
+
+  - trigger: "developements"
+    replace: "developments"
+
+  - trigger: "developor"
+    replace: "developer"
+
+  - trigger: "developors"
+    replace: "developers"
+
+  - trigger: "develpment"
+    replace: "development"
+
+  - trigger: "diaplay"
+    replace: "display"
+
+  - trigger: "diden’t"
+    replace: "didn’t"
+
+  - trigger: "dident"
+    replace: "didn’t"
+
+  - trigger: "didnot"
+    replace: "did not"
+
+  - trigger: "didnt"
+    replace: "didn’t"
+
+  - trigger: "difefrent"
+    replace: "different"
+
+  - trigger: "diferences"
+    replace: "differences"
+
+  - trigger: "differance"
+    replace: "difference"
+
+  - trigger: "differances"
+    replace: "differences"
+
+  - trigger: "differant"
+    replace: "different"
+
+  - trigger: "differemt"
+    replace: "different"
+
+  - trigger: "differnce"
+    replace: "difference"
+
+  - trigger: "differnt"
+    replace: "different"
+
+  - trigger: "diffrent"
+    replace: "different"
+
+  - trigger: "directer"
+    replace: "director"
+
+  - trigger: "directers"
+    replace: "directors"
+
+  - trigger: "directiosn"
+    replace: "direction"
+
+  - trigger: "directy"
+    replace: "directly"
+
+  - trigger: "disapoint"
+    replace: "disappoint"
+
+  - trigger: "disatisfied"
+    replace: "dissatisfied"
+
+  - trigger: "discoverd"
+    replace: "discovered"
+
+  - trigger: "disign"
+    replace: "design"
+
+  - trigger: "dispaly"
+    replace: "display"
+
+  - trigger: "disperation"
+    replace: "desperation"
+
+  - trigger: "dissonent"
+    replace: "dissonant"
+
+  - trigger: "distribusion"
+    replace: "distribution"
+
+  - trigger: "divsion"
+    replace: "division"
+
+  - trigger: "docuement"
+    replace: "document"
+
+  - trigger: "docuemnt"
+    replace: "document"
+
+  - trigger: "documetn"
+    replace: "document"
+
+  - trigger: "documnet"
+    replace: "document"
+
+  - trigger: "documnets"
+    replace: "documents"
+
+  - trigger: "doe snot"
+    replace: "does not"
+
+  - trigger: "doese"
+    replace: "does"
+
+  - trigger: "doesnt"
+    replace: "doesn’t"
+
+  - trigger: "doign"
+    replace: "doing"
+
+  - trigger: "doimg"
+    replace: "doing"
+
+  - trigger: "doind"
+    replace: "doing"
+
+  - trigger: "dollers"
+    replace: "dollars"
+
+  - trigger: "donig"
+    replace: "doing"
+
+  - trigger: "dont"
+    replace: "don’t"
+
+  - trigger: "driveing"
+    replace: "driving"
+
+  - trigger: "drnik"
+    replace: "drink"
+
+  - trigger: "eacch"
+    replace: "each"
+
+  - trigger: "editting"
+    replace: "editing"
+
+  - trigger: "efel"
+    replace: "feel"
+
+  - trigger: "effecient"
+    replace: "efficient"
+
+  - trigger: "efort"
+    replace: "effort"
+
+  - trigger: "eforts"
+    replace: "efforts"
+
+  - trigger: "ehr"
+    replace: "her"
+
+  - trigger: "elce"
+    replace: "else"
+
+  - trigger: "eligable"
+    replace: "eligible"
+
+  - trigger: "embarass"
+    replace: "embarrass"
+
+  - trigger: "enought"
+    replace: "enough"
+
+  - trigger: "equippment"
+    replace: "equipment"
+
+  - trigger: "equivalant"
+    replace: "equivalent"
+
+  - trigger: "esle"
+    replace: "else"
+
+  - trigger: "especally"
+    replace: "especially"
+
+  - trigger: "especialyl"
+    replace: "especially"
+
+  - trigger: "espesially"
+    replace: "especially"
+
+  - trigger: "excellant"
+    replace: "excellent"
+
+  - trigger: "excercise"
+    replace: "exercise"
+
+  - trigger: "exchagne"
+    replace: "exchange"
+
+  - trigger: "exchagnes"
+    replace: "exchanges"
+
+  - trigger: "excitment"
+    replace: "excitement"
+
+  - trigger: "executeable"
+    replace: "executable"
+
+  - trigger: "executeables"
+    replace: "executables"
+
+  - trigger: "exhcange"
+    replace: "exchange"
+
+  - trigger: "exhcanges"
+    replace: "exchanges"
+
+  - trigger: "experiance"
+    replace: "experience"
+
+  - trigger: "experienc "
+    replace: "experience "
+
+  - trigger: "exprience"
+    replace: "experience"
+
+  - trigger: "exprienced"
+    replace: "experienced"
+
+  - trigger: "eyt"
+    replace: "yet"
+
+  - trigger: "faeture"
+    replace: "feature"
+
+  - trigger: "faetures"
+    replace: "features"
+
+  - trigger: "familair"
+    replace: "familiar"
+
+  - trigger: "familar"
+    replace: "familiar"
+
+  - trigger: "familliar"
+    replace: "familiar"
+
+  - trigger: "fammiliar"
+    replace: "familiar"
+
+  - trigger: "feild"
+    replace: "field"
+
+  - trigger: "feilds"
+    replace: "fields"
+
+  - trigger: "fianlly"
+    replace: "finally"
+
+  - trigger: "fidn"
+    replace: "find"
+
+  - trigger: "finalyl"
+    replace: "finally"
+
+  - trigger: "firends"
+    replace: "friends"
+
+  - trigger: "firts"
+    replace: "first"
+
+  - trigger: "follwo"
+    replace: "follow"
+
+  - trigger: "follwoing"
+    replace: "following"
+
+  - trigger: "fora"
+    replace: "for a"
+
+  - trigger: "foriegn"
+    replace: "foreign"
+
+  - trigger: "forthe"
+    replace: "for the"
+
+  - trigger: "forwrd"
+    replace: "forward"
+
+  - trigger: "forwrds"
+    replace: "forwards"
+
+  - trigger: "foudn"
+    replace: "found"
+
+  - trigger: "foward"
+    replace: "forward"
+
+  - trigger: "fowards"
+    replace: "forwards"
+
+  - trigger: "freind"
+    replace: "friend"
+
+  - trigger: "freindly"
+    replace: "friendly"
+
+  - trigger: "freinds"
+    replace: "friends"
+
+  - trigger: "frmo"
+    replace: "from"
+
+  - trigger: "fromt he"
+    replace: "from the"
+
+  - trigger: "fromthe"
+    replace: "from the"
+
+  - trigger: "furneral"
+    replace: "funeral"
+
+  - trigger: "fwe"
+    replace: "few"
+
+  - trigger: "garantee"
+    replace: "guarantee"
+
+  - trigger: "gaurd"
+    replace: "guard"
+
+  - trigger: "gemeral"
+    replace: "general"
+
+  - trigger: "gerat"
+    replace: "great"
+
+  - trigger: "geting"
+    replace: "getting"
+
+  - trigger: "gettin"
+    replace: "getting"
+
+  - trigger: "gievn"
+    replace: "given"
+
+  - trigger: "giveing"
+    replace: "giving"
+
+  - trigger: "gloabl"
+    replace: "global"
+
+  - trigger: "goign"
+    replace: "going"
+
+  - trigger: "gonig"
+    replace: "going"
+
+  - trigger: "govenment"
+    replace: "government"
+
+  - trigger: "goverment"
+    replace: "government"
+
+  - trigger: "gruop"
+    replace: "group"
+
+  - trigger: "gruops"
+    replace: "groups"
+
+  - trigger: "grwo"
+    replace: "grow"
+
+  - trigger: "guidlines"
+    replace: "guidelines"
+
+  - trigger: "hadbeen"
+    replace: "had been"
+
+  - trigger: "haev"
+    replace: "have"
+
+  - trigger: "hapen"
+    replace: "happen"
+
+  - trigger: "hapened"
+    replace: "happened"
+
+  - trigger: "hapening"
+    replace: "happening"
+
+  - trigger: "hapens"
+    replace: "happens"
+
+  - trigger: "happend"
+    replace: "happened"
+
+  - trigger: "harwdare"
+    replace: "hardware"
+
+  - trigger: "hasbeen"
+    replace: "has been"
+
+  - trigger: "havebeen"
+    replace: "have been"
+
+  - trigger: "haveing"
+    replace: "having"
+
+  - trigger: "hearign"
+    replace: "hearing"
+
+  - trigger: "helpfull"
+    replace: "helpful"
+
+  - trigger: "herat"
+    replace: "heart"
+
+  - trigger: "hesaid"
+    replace: "he said"
+
+  - trigger: "hewas"
+    replace: "he was"
+
+  - trigger: "hge"
+    replace: "he"
+
+  - trigger: "hig "
+    replace: "high "
+
+  - trigger: "hismelf"
+    replace: "himself"
+
+  - trigger: "hlep"
+    replace: "help"
+
+  - trigger: "hsa"
+    replace: "has"
+
+  - trigger: "hsi"
+    replace: "his"
+
+  - trigger: "hte"
+    replace: "the"
+
+  - trigger: "htere"
+    replace: "there"
+
+  - trigger: "htese"
+    replace: "these"
+
+  - trigger: "htey"
+    replace: "they"
+
+  - trigger: "hting"
+    replace: "thing"
+
+  - trigger: "htink"
+    replace: "think"
+
+  - trigger: "htis"
+    replace: "this"
+
+  - trigger: "hvae"
+    replace: "have"
+
+  - trigger: "hvaing"
+    replace: "having"
+
+  - trigger: "hwich "
+    replace: "which "
+
+  - trigger: "hystory"
+    replace: "history"
+
+  - trigger: " i "
+    replace: " I "
+
+  - trigger: "i snot"
+    replace: "is not"
+
+  - trigger: "I.e."
+    replace: "i.e."
+
+  - trigger: "idae"
+    replace: "idea"
+
+  - trigger: "idaes"
+    replace: "ideas"
+
+  - trigger: "identofy"
+    replace: "identify"
+
+  - trigger: "ihs"
+    replace: "his"
+
+  - trigger: "imediate"
+    replace: "immediate"
+
+  - trigger: "imediatly"
+    replace: "immediately"
+
+  - trigger: "immediatly"
+    replace: "immediately"
+
+  - trigger: "importent"
+    replace: "important"
+
+  - trigger: "importnat"
+    replace: "important"
+
+  - trigger: "impossable"
+    replace: "impossible"
+
+  - trigger: "improvemnt"
+    replace: "improvement"
+
+  - trigger: "improvment"
+    replace: "improvement"
+
+  - trigger: "imprved"
+    replace: "improved"
+
+  - trigger: "includ "
+    replace: "include "
+
+  - trigger: "indecate"
+    replace: "indicate"
+
+  - trigger: "indenpendence"
+    replace: "independence"
+
+  - trigger: "indenpendent"
+    replace: "independent"
+
+  - trigger: "indepedent"
+    replace: "independent"
+
+  - trigger: "independance"
+    replace: "independence"
+
+  - trigger: "independant"
+    replace: "independent"
+
+  - trigger: "influance"
+    replace: "influence"
+
+  - trigger: "infomation"
+    replace: "information"
+
+  - trigger: "informatoin"
+    replace: "information"
+
+  - trigger: "inital"
+    replace: "initial"
+
+  - trigger: "instaleld"
+    replace: "installed"
+
+  - trigger: "insted"
+    replace: "instead"
+
+  - trigger: "insurence"
+    replace: "insurance"
+
+  - trigger: "int he"
+    replace: "in the"
+
+  - trigger: "inteh"
+    replace: "in the"
+
+  - trigger: "inteligence"
+    replace: "intelligence"
+
+  - trigger: "inteligences"
+    replace: "intelligences"
+
+  - trigger: "interum"
+    replace: "interim"
+
+  - trigger: "inthe"
+    replace: "in the"
+
+  - trigger: "inwhich"
+    replace: "in which"
+
+  - trigger: "isthe"
+    replace: "is the"
+
+  - trigger: "itis"
+    replace: "it is"
+
+  - trigger: "ititial"
+    replace: "initial"
+
+  - trigger: "itnerest"
+    replace: "interest"
+
+  - trigger: "itnerested"
+    replace: "interested"
+
+  - trigger: "itneresting"
+    replace: "interesting"
+
+  - trigger: "itnerests"
+    replace: "interests"
+
+  - trigger: "iwll"
+    replace: "will"
+
+  - trigger: "iwth"
+    replace: "with"
+
+  - trigger: "jsut"
+    replace: "just"
+
+  - trigger: "jugment"
+    replace: "judgment"
+
+  - trigger: "knoew"
+    replace: "know"
+
+  - trigger: "knowldge"
+    replace: "knowledge"
+
+  - trigger: "knowlege"
+    replace: "knowledge"
+
+  - trigger: "knwo"
+    replace: "know"
+
+  - trigger: "knwon"
+    replace: "known"
+
+  - trigger: "knwos"
+    replace: "knows"
+
+  - trigger: "konwn"
+    replace: "known"
+
+  - trigger: "konws"
+    replace: "knows"
+
+  - trigger: "labratory"
+    replace: "laboratory"
+
+  - trigger: "lastyear"
+    replace: "last year"
+
+  - trigger: "learnign"
+    replace: "learning"
+
+  - trigger: "lenght"
+    replace: "length"
+
+  - trigger: "levle"
+    replace: "level"
+
+  - trigger: "libary"
+    replace: "library"
+
+  - trigger: "librarry"
+    replace: "library"
+
+  - trigger: "librery"
+    replace: "library"
+
+  - trigger: "liek"
+    replace: "like"
+
+  - trigger: "liekd"
+    replace: "liked"
+
+  - trigger: "lieutenent"
+    replace: "lieutenant"
+
+  - trigger: "liev"
+    replace: "live"
+
+  - trigger: "liklihood"
+    replace: "likelihood"
+
+  - trigger: "likly"
+    replace: "likely"
+
+  - trigger: "lisense"
+    replace: "licence"
+
+  - trigger: "littel"
+    replace: "little"
+
+  - trigger: "litttle"
+    replace: "little"
+
+  - trigger: "liuke"
+    replace: "like"
+
+  - trigger: "liveing"
+    replace: "living"
+
+  - trigger: "lizzard"
+    replace: "lizard"
+
+  - trigger: "loev"
+    replace: "love"
+
+  - trigger: "lonly"
+    replace: "lonely"
+
+  - trigger: "lookign"
+    replace: "looking"
+
+  - trigger: "mainfraime"
+    replace: "mainframe"
+
+  - trigger: "mainfraimes"
+    replace: "mainframes"
+
+  - trigger: "mainteined"
+    replace: "maintained"
+
+  - trigger: "maintenence"
+    replace: "maintenance"
+
+  - trigger: "makeing"
+    replace: "making"
+
+  - trigger: "managment"
+    replace: "management"
+
+  - trigger: "mantain"
+    replace: "maintain"
+
+  - trigger: "marraige"
+    replace: "marriage"
+
+  - trigger: "may of been"
+    replace: "may have been"
+
+  - trigger: "may of had"
+    replace: "may have had"
+
+  - trigger: "mechine"
+    replace: "machine"
+
+  - trigger: "mechines"
+    replace: "machines"
+
+  - trigger: "memeber"
+    replace: "member"
+
+  - trigger: "merchent"
+    replace: "merchant"
+
+  - trigger: "mesage"
+    replace: "message"
+
+  - trigger: "mesages"
+    replace: "messages"
+
+  - trigger: "might of been"
+    replace: "might have been"
+
+  - trigger: "might of had"
+    replace: "might have had"
+
+  - trigger: "mispell"
+    replace: "misspell"
+
+  - trigger: "mispelling"
+    replace: "misspelling"
+
+  - trigger: "mispellings"
+    replace: "misspellings"
+
+  - trigger: "mkae"
+    replace: "make"
+
+  - trigger: "mkaes"
+    replace: "makes"
+
+  - trigger: "mkaing"
+    replace: "making"
+
+  - trigger: "moeny"
+    replace: "money"
+
+  - trigger: "morgage"
+    replace: "mortgage"
+
+  - trigger: "mroe"
+    replace: "more"
+
+  - trigger: "must of been"
+    replace: "must have been"
+
+  - trigger: "must of had"
+    replace: "must have had"
+
+  - trigger: "mysefl"
+    replace: "myself"
+
+  - trigger: "myu"
+    replace: "my"
+
+  - trigger: "necassarily"
+    replace: "necessarily"
+
+  - trigger: "necassary"
+    replace: "necessary"
+
+  - trigger: "neccessarily"
+    replace: "necessarily"
+
+  - trigger: "neccessary"
+    replace: "necessary"
+
+  - trigger: "necesarily"
+    replace: "necessarily"
+
+  - trigger: "necesary"
+    replace: "necessary"
+
+  - trigger: "needen’t"
+    replace: "needn’t"
+
+  - trigger: "needent"
+    replace: "needn’t"
+
+  - trigger: "negotiaing"
+    replace: "negotiating"
+
+  - trigger: "nkow"
+    replace: "know"
+
+  - trigger: "nothign"
+    replace: "nothing"
+
+  - trigger: "nver"
+    replace: "never"
+
+  - trigger: "nwe"
+    replace: "new"
+
+  - trigger: "nwo"
+    replace: "now"
+
+  - trigger: "obediant"
+    replace: "obedient"
+
+  - trigger: "ocasion"
+    replace: "occasion"
+
+  - trigger: "occassion"
+    replace: "occasion"
+
+  - trigger: "occorrence"
+    replace: "occurrence"
+
+  - trigger: "occorrences"
+    replace: "occurrences"
+
+  - trigger: "occured"
+    replace: "occurred"
+
+  - trigger: "occurence"
+    replace: "occurrence"
+
+  - trigger: "occurrance"
+    replace: "occurrence"
+
+  - trigger: "ocur"
+    replace: "occur"
+
+  - trigger: "odf"
+    replace: "ODF"
+
+  - trigger: "oeprator"
+    replace: "operator"
+
+  - trigger: "ofits"
+    replace: "of its"
+
+  - trigger: "oft he"
+    replace: "of the"
+
+  - trigger: "ofthe"
+    replace: "of the"
+
+  - trigger: "oging"
+    replace: "going"
+
+  - trigger: "ohter"
+    replace: "other"
+
+  - trigger: "omre"
+    replace: "more"
+
+  - trigger: "oneof"
+    replace: "one of"
+
+  - trigger: "onepoint"
+    replace: "one point"
+
+  - trigger: "ont he"
+    replace: "on the"
+
+  - trigger: "onthe"
+    replace: "on the"
+
+  - trigger: "onyl"
+    replace: "only"
+
+  - trigger: "opnion"
+    replace: "opinion"
+
+  - trigger: "opnions"
+    replace: "opinions"
+
+  - trigger: "oppasite"
+    replace: "opposite"
+
+  - trigger: "opperation"
+    replace: "operation"
+
+  - trigger: "oppertunity"
+    replace: "opportunity"
+
+  - trigger: "opposate"
+    replace: "opposite"
+
+  - trigger: "opposible"
+    replace: "opposable"
+
+  - trigger: "opposit"
+    replace: "opposite"
+
+  - trigger: "oppotunities"
+    replace: "opportunities"
+
+  - trigger: "oppotunity"
+    replace: "opportunity"
+
+  - trigger: "orginization"
+    replace: "organisation"
+
+  - trigger: "orginized"
+    replace: "organised"
+
+  - trigger: "otehr"
+    replace: "other"
+
+  - trigger: "outof"
+    replace: "out of"
+
+  - trigger: "overthe"
+    replace: "over the"
+
+  - trigger: "owrk"
+    replace: "work"
+
+  - trigger: "owuld"
+    replace: "would"
+
+  - trigger: "oxident"
+    replace: "oxidant"
+
+  - trigger: "papaer"
+    replace: "paper"
+
+  - trigger: "parliment"
+    replace: "parliament"
+
+  - trigger: "partof"
+    replace: "part of"
+
+  - trigger: "paymetn"
+    replace: "payment"
+
+  - trigger: "paymetns"
+    replace: "payments"
+
+  - trigger: "pciture"
+    replace: "picture"
+
+  - trigger: "peaple"
+    replace: "people"
+
+  - trigger: "peice"
+    replace: "piece"
+
+  - trigger: "peices"
+    replace: "pieces"
+
+  - trigger: "peolpe"
+    replace: "people"
+
+  - trigger: "peopel"
+    replace: "people"
+
+  - trigger: "percentof"
+    replace: "percent of"
+
+  - trigger: "percentto"
+    replace: "percent to"
+
+  - trigger: "performence"
+    replace: "performance"
+
+  - trigger: "perhasp"
+    replace: "perhaps"
+
+  - trigger: "perhpas"
+    replace: "perhaps"
+
+  - trigger: "permanant"
+    replace: "permanent"
+
+  - trigger: "perminent"
+    replace: "permanent"
+
+  - trigger: "personalyl"
+    replace: "personally"
+
+  - trigger: "pleasent"
+    replace: "pleasant"
+
+  - trigger: "poeple"
+    replace: "people"
+
+  - trigger: "porblem"
+    replace: "problem"
+
+  - trigger: "porblems"
+    replace: "problems"
+
+  - trigger: "porvide"
+    replace: "provide"
+
+  - trigger: "possable"
+    replace: "possible"
+
+  - trigger: "postition"
+    replace: "position"
+
+  - trigger: "potentialy"
+    replace: "potentially"
+
+  - trigger: "pregnent"
+    replace: "pregnant"
+
+  - trigger: "presance"
+    replace: "presence"
+
+  - trigger: "probelm"
+    replace: "problem"
+
+  - trigger: "probelms"
+    replace: "problems"
+
+  - trigger: "problim"
+    replace: "problem"
+
+  - trigger: "problims"
+    replace: "problems"
+
+  - trigger: "proggress"
+    replace: "progress"
+
+  - trigger: "prominant"
+    replace: "prominent"
+
+  - trigger: "psoition"
+    replace: "position"
+
+  - trigger: "ptogress"
+    replace: "progress"
+
+  - trigger: "puting"
+    replace: "putting"
+
+  - trigger: "pwoer"
+    replace: "power"
+
+  - trigger: "quater"
+    replace: "quarter"
+
+  - trigger: "quaters"
+    replace: "quarters"
+
+  - trigger: "quesion"
+    replace: "question"
+
+  - trigger: "quesions"
+    replace: "questions"
+
+  - trigger: "questioms"
+    replace: "questions"
+
+  - trigger: "questiosn"
+    replace: "questions"
+
+  - trigger: "questoin"
+    replace: "question"
+
+  - trigger: "quetion"
+    replace: "question"
+
+  - trigger: "quetions"
+    replace: "questions"
+
+  - trigger: "qurantine"
+    replace: "quarantine"
+
+  - trigger: "realyl"
+    replace: "really"
+
+  - trigger: "reccomend"
+    replace: "recommend"
+
+  - trigger: "reccommend"
+    replace: "recommend"
+
+  - trigger: "receieve"
+    replace: "receive"
+
+  - trigger: "recieve"
+    replace: "receive"
+
+  - trigger: "recieved"
+    replace: "received"
+
+  - trigger: "recieving"
+    replace: "receiving"
+
+  - trigger: "recomend"
+    replace: "recommend"
+
+  - trigger: "recomendation"
+    replace: "recommendation"
+
+  - trigger: "recomendations"
+    replace: "recommendations"
+
+  - trigger: "recomended"
+    replace: "recommended"
+
+  - trigger: "reconize"
+    replace: "recognise"
+
+  - trigger: "recrod"
+    replace: "record"
+
+  - trigger: "releaesd"
+    replace: "released"
+
+  - trigger: "religous"
+    replace: "religious"
+
+  - trigger: "reluctent"
+    replace: "reluctant"
+
+  - trigger: "remainig"
+    replace: "remaining"
+
+  - trigger: "remeber"
+    replace: "remember"
+
+  - trigger: "reommend"
+    replace: "recommend"
+
+  - trigger: "representativs"
+    replace: "representatives"
+
+  - trigger: "representives"
+    replace: "representatives"
+
+  - trigger: "represetned"
+    replace: "represented"
+
+  - trigger: "represnt"
+    replace: "represent"
+
+  - trigger: "reserach"
+    replace: "research"
+
+  - trigger: "resollution"
+    replace: "resolution"
+
+  - trigger: "resorces"
+    replace: "resources"
+
+  - trigger: "respomd"
+    replace: "respond"
+
+  - trigger: "respomse"
+    replace: "response"
+
+  - trigger: "responce"
+    replace: "response"
+
+  - trigger: "responsability"
+    replace: "responsibility"
+
+  - trigger: "responsable"
+    replace: "responsible"
+
+  - trigger: "responsibile"
+    replace: "responsible"
+
+  - trigger: "responsiblity"
+    replace: "responsibility"
+
+  - trigger: "restaraunt"
+    replace: "restaurant"
+
+  - trigger: "restuarant"
+    replace: "restaurant"
+
+  - trigger: "reult"
+    replace: "result"
+
+  - trigger: "reveiw"
+    replace: "review"
+
+  - trigger: "reveiwing"
+    replace: "reviewing"
+
+  - trigger: "rumers"
+    replace: "rumors"
+
+  - trigger: "rwite"
+    replace: "write"
+
+  - trigger: "rythm"
+    replace: "rhythm"
+
+  - trigger: "saidhe"
+    replace: "said he"
+
+  - trigger: "saidit"
+    replace: "said it"
+
+  - trigger: "saidt he"
+    replace: "said the"
+
+  - trigger: "saidthat"
+    replace: "said that"
+
+  - trigger: "saidthe"
+    replace: "said the"
+
+  - trigger: "scedule"
+    replace: "schedule"
+
+  - trigger: "sceduled"
+    replace: "scheduled"
+
+  - trigger: "seance"
+    replace: "séance"
+
+  - trigger: "secratary"
+    replace: "secretary"
+
+  - trigger: "sectino"
+    replace: "section"
+
+  - trigger: "seh"
+    replace: "she"
+
+  - trigger: "selectoin"
+    replace: "selection"
+
+  - trigger: "sentance"
+    replace: "sentence"
+
+  - trigger: "separeate"
+    replace: "separate"
+
+  - trigger: "sercumstances"
+    replace: "circumstances"
+
+  - trigger: "shcool"
+    replace: "school"
+
+  - trigger: "shesaid"
+    replace: "she said"
+
+  - trigger: "shineing"
+    replace: "shining"
+
+  - trigger: "shiped"
+    replace: "shipped"
+
+  - trigger: "shoudl"
+    replace: "should"
+
+  - trigger: "should of been"
+    replace: "should have been"
+
+  - trigger: "should of had"
+    replace: "should have had"
+
+  - trigger: "shouldnt"
+    replace: "shouldn’t"
+
+  - trigger: "showinf"
+    replace: "showing"
+
+  - trigger: "signifacnt"
+    replace: "significant"
+
+  - trigger: "simalar"
+    replace: "similar"
+
+  - trigger: "similiar"
+    replace: "similar"
+
+  - trigger: "simpyl"
+    replace: "simply"
+
+  - trigger: "sincerly"
+    replace: "sincerely"
+
+  - trigger: "sitll"
+    replace: "still"
+
+  - trigger: "smae"
+    replace: "same"
+
+  - trigger: "smoe"
+    replace: "some"
+
+  - trigger: "soem"
+    replace: "some"
+
+  - trigger: "sohw"
+    replace: "show"
+
+  - trigger: "soical"
+    replace: "social"
+
+  - trigger: "someoen"
+    replace: "someone"
+
+  - trigger: "somethign"
+    replace: "something"
+
+  - trigger: "someting"
+    replace: "something"
+
+  - trigger: "somewaht"
+    replace: "somewhat"
+
+  - trigger: "somtheing"
+    replace: "something"
+
+  - trigger: "somthing"
+    replace: "something"
+
+  - trigger: "somtimes"
+    replace: "sometimes"
+
+  - trigger: "somtin"
+    replace: "something"
+
+  - trigger: "sot hat"
+    replace: "so that"
+
+  - trigger: "soudn"
+    replace: "sound"
+
+  - trigger: "soudns"
+    replace: "sounds"
+
+  - trigger: "speach"
+    replace: "speech"
+
+  - trigger: "specificaly"
+    replace: "specifically"
+
+  - trigger: "specificalyl"
+    replace: "specifically"
+
+  - trigger: "speeking"
+    replace: "speaking"
+
+  - trigger: "statment"
+    replace: "statement"
+
+  - trigger: "statments"
+    replace: "statements"
+
+  - trigger: "stnad"
+    replace: "stand"
+
+  - trigger: "stopry"
+    replace: "story"
+
+  - trigger: "stoyr"
+    replace: "story"
+
+  - trigger: "stpo"
+    replace: "stop"
+
+  - trigger: "strentgh"
+    replace: "strength"
+
+  - trigger: "stroy"
+    replace: "story"
+
+  - trigger: "struggel"
+    replace: "struggle"
+
+  - trigger: "strugle"
+    replace: "struggle"
+
+  - trigger: "studnet"
+    replace: "student"
+
+  - trigger: "successfull"
+    replace: "successful"
+
+  - trigger: "successfuly"
+    replace: "successfully"
+
+  - trigger: "successfulyl"
+    replace: "successfully"
+
+  - trigger: "sucess"
+    replace: "success"
+
+  - trigger: "sucessfull"
+    replace: "successful"
+
+  - trigger: "sufficiant"
+    replace: "sufficient"
+
+  - trigger: "sugestion"
+    replace: "suggestion"
+
+  - trigger: "sugestions"
+    replace: "suggestions"
+
+  - trigger: "suposed"
+    replace: "supposed"
+
+  - trigger: "suppossed"
+    replace: "supposed"
+
+  - trigger: "suprised"
+    replace: "surprised"
+
+  - trigger: "swiming"
+    replace: "swimming"
+
+  - trigger: "tahn"
+    replace: "than"
+
+  - trigger: "taht"
+    replace: "that"
+
+  - trigger: "talekd"
+    replace: "talked"
+
+  - trigger: "talkign"
+    replace: "talking"
+
+  - trigger: "tath"
+    replace: "that"
+
+  - trigger: "tecnical"
+    replace: "technical"
+
+  - trigger: "teh"
+    replace: "the"
+
+  - trigger: "tehy"
+    replace: "they"
+
+  - trigger: "tellt he"
+    replace: "tell the"
+
+  - trigger: "termoil"
+    replace: "turmoil"
+
+  - trigger: "testiing"
+    replace: "testing"
+
+  - trigger: "tets"
+    replace: "test"
+
+  - trigger: "tghe"
+    replace: "the"
+
+  - trigger: "tghis"
+    replace: "this"
+
+  - trigger: "thansk"
+    replace: "thanks"
+
+  - trigger: "thatt he"
+    replace: "that the"
+
+  - trigger: "thatthe"
+    replace: "that the"
+
+  - trigger: "thecompany"
+    replace: "the company"
+
+  - trigger: "thefirst"
+    replace: "the first"
+
+  - trigger: "thegovernment"
+    replace: "the government"
+
+  - trigger: "their are"
+    replace: "there are"
+
+  - trigger: "their is"
+    replace: "there is"
+
+  - trigger: "themself"
+    replace: "themselves"
+
+  - trigger: "themselfs"
+    replace: "themselves"
+
+  - trigger: "thenew"
+    replace: "the new"
+
+  - trigger: " theri"
+    replace: " their"
+
+  - trigger: "thesame"
+    replace: "the same"
+
+  - trigger: "thetwo"
+    replace: "the two"
+
+  - trigger: "theyr"
+    replace: "their"
+
+  - trigger: "thgat"
+    replace: "that"
+
+  - trigger: "thge"
+    replace: "the"
+
+  - trigger: " thier"
+    replace: " their"
+
+  - trigger: "thigsn"
+    replace: "things"
+
+  - trigger: "thisyear"
+    replace: "this year"
+
+  - trigger: "thme"
+    replace: "them"
+
+  - trigger: "thna"
+    replace: "than"
+
+  - trigger: "thne"
+    replace: "then"
+
+  - trigger: "thnig"
+    replace: "thing"
+
+  - trigger: "thnigs"
+    replace: "things"
+
+  - trigger: "threatend"
+    replace: "threatened"
+
+  - trigger: "thsi"
+    replace: "this"
+
+  - trigger: "thsoe"
+    replace: "those"
+
+  - trigger: "thta"
+    replace: "that"
+
+  - trigger: "tihs"
+    replace: "this"
+
+  - trigger: "timne"
+    replace: "time"
+
+  - trigger: "tiogether"
+    replace: "together"
+
+  - trigger: "tje"
+    replace: "the"
+
+  - trigger: "tjhe"
+    replace: "the"
+
+  - trigger: "tkae"
+    replace: "take"
+
+  - trigger: "tkaes"
+    replace: "takes"
+
+  - trigger: "tkaing"
+    replace: "taking"
+
+  - trigger: "tlaking"
+    replace: "talking"
+
+  - trigger: "todya"
+    replace: "today"
+
+  - trigger: "togahter"
+    replace: "together"
+
+  - trigger: "togehter"
+    replace: "together"
+
+  - trigger: "toldt he"
+    replace: "told the"
+
+  - trigger: "tomorow"
+    replace: "tomorrow"
+
+  - trigger: "tongiht"
+    replace: "tonight"
+
+  - trigger: "tonihgt"
+    replace: "tonight"
+
+  - trigger: "totaly"
+    replace: "totally"
+
+  - trigger: "totalyl"
+    replace: "totally"
+
+  - trigger: "tothe"
+    replace: "to the"
+
+  - trigger: "towrad"
+    replace: "toward"
+
+  - trigger: "traditionalyl"
+    replace: "traditionally"
+
+  - trigger: "trainning"
+    replace: "training"
+
+  - trigger: "transfered"
+    replace: "transferred"
+
+  - trigger: "truely"
+    replace: "truly"
+
+  - trigger: "truley"
+    replace: "truly"
+
+  - trigger: "tryed"
+    replace: "tried"
+
+  - trigger: "tthe"
+    replace: "the"
+
+  - trigger: "tyhat"
+    replace: "that"
+
+  - trigger: "tyhe"
+    replace: "the"
+
+  - trigger: "udnerstand"
+    replace: "understand"
+
+  - trigger: "uknown"
+    replace: "unknown"
+
+  - trigger: "understnad"
+    replace: "understand"
+
+  - trigger: "undert he"
+    replace: "under the"
+
+  - trigger: "UnitedStates"
+    replace: "United States"
+
+  - trigger: "unliek"
+    replace: "unlike"
+
+  - trigger: "unmainteined"
+    replace: "unmaintained"
+
+  - trigger: "unpleasently"
+    replace: "unpleasantly"
+
+  - trigger: "untill"
+    replace: "until"
+
+  - trigger: "untilll"
+    replace: "until"
+
+  - trigger: "upcomming"
+    replace: "upcoming"
+
+  - trigger: "useing"
+    replace: "using"
+
+  - trigger: "usualyl"
+    replace: "usually"
+
+  - trigger: "uszed"
+    replace: "used"
+
+  - trigger: "veyr"
+    replace: "very"
+
+  - trigger: "virtualyl"
+    replace: "virtually"
+
+  - trigger: "vrey"
+    replace: "very"
+
+  - trigger: "vulnerible"
+    replace: "vulnerable"
+
+  - trigger: "wa snot"
+    replace: "was not"
+
+  - trigger: "waht"
+    replace: "what"
+
+  - trigger: "warrent"
+    replace: "warrant"
+
+  - trigger: "watn"
+    replace: "want"
+
+  - trigger: "wehn"
+    replace: "when"
+
+  - trigger: "werent"
+    replace: "weren’t"
+
+  - trigger: "werre"
+    replace: "were"
+
+  - trigger: "whcih "
+    replace: "which "
+
+  - trigger: "whent he"
+    replace: "when the"
+
+  - trigger: "wherre"
+    replace: "where"
+
+  - trigger: "whic "
+    replace: "which "
+
+  - trigger: "whicht he"
+    replace: "which the"
+
+  - trigger: "whihc"
+    replace: "which"
+
+  - trigger: "who;ve"
+    replace: "who’ve"
+
+  - trigger: "whta"
+    replace: "what"
+
+  - trigger: "wief"
+    replace: "wife"
+
+  - trigger: "wierd"
+    replace: "weird"
+
+  - trigger: "wihch"
+    replace: "which"
+
+  - trigger: "wiht"
+    replace: "with"
+
+  - trigger: "will of been"
+    replace: "will have been"
+
+  - trigger: "willbe"
+    replace: "will be"
+
+  - trigger: "windoes"
+    replace: "windows"
+
+  - trigger: "witha"
+    replace: "with a"
+
+  - trigger: "withe"
+    replace: "with"
+
+  - trigger: "witht he"
+    replace: "with the"
+
+  - trigger: "withthe"
+    replace: "with the"
+
+  - trigger: "wiull"
+    replace: "will"
+
+  - trigger: "wnat"
+    replace: "want"
+
+  - trigger: "wnated"
+    replace: "wanted"
+
+  - trigger: "wnats"
+    replace: "wants"
+
+  - trigger: "woh"
+    replace: "who"
+
+  - trigger: "wohle"
+    replace: "whole"
+
+  - trigger: "wokr"
+    replace: "work"
+
+  - trigger: "woudl"
+    replace: "would"
+
+  - trigger: "would of been"
+    replace: "would have been"
+
+  - trigger: "would of had"
+    replace: "would have had"
+
+  - trigger: "wouldbe"
+    replace: "would be"
+
+  - trigger: "wriet"
+    replace: "write"
+
+  - trigger: "writen"
+    replace: "written"
+
+  - trigger: "writting"
+    replace: "writing"
+
+  - trigger: "wrod"
+    replace: "word"
+
+  - trigger: "wroet"
+    replace: "wrote"
+
+  - trigger: "wroking"
+    replace: "working"
+
+  - trigger: "wtih"
+    replace: "with"
+
+  - trigger: "wuould"
+    replace: "would"
+
+  - trigger: "wya"
+    replace: "way"
+
+  - trigger: "yera"
+    replace: "year"
+
+  - trigger: "yeras"
+    replace: "years"
+
+  - trigger: "yersa"
+    replace: "years"
+
+  - trigger: "yeserday"
+    replace: "yesterday"
+
+  - trigger: "yoiu"
+    replace: "you"
+
+  - trigger: "youare"
+    replace: "you are"
+
+  - trigger: "youreself"
+    replace: "yourself"
+
+  - trigger: "ytou"
+    replace: "you"
+
+  - trigger: "yuo"
+    replace: "you"
+
+  - trigger: "yuor"
+    replace: "your"

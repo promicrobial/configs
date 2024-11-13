@@ -1,0 +1,607 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+# NOTE: espanso uses YAML to define matches, so pay attention to the indentation and don't use hard tabs!
+
+matches:
+
+#################
+# Bash snippets #
+#################
+
+# docker image with mounted directory
+# Note: docker1 is not the correct command - this is used by my institute to avoid giving users root access on the HPC. Change to docker instead
+  - trigger: ":docker"
+    replace: docker1 run -v "$dir"/:"$dir" --rm
+
+  - trigger: ":parallel"
+    replace: parallel -j 60 --eta 
+
+  - trigger: ":find"
+    replace: find ./ -type f -maxdepth 1 -name "*.txt"
+
+  - trigger: ":pandoc"
+    replace: pandoc $|$.md -f markdown -t docx -s -o x.docx
+
+  - trigger: ":shebang"
+    replace: "#!/bin/bash"
+
+
+  - trigger: ":script"
+    replace: |
+              #!/bin/bash
+
+              #######################################
+              #                                     #
+              #                 $|$                 #
+              #                                     #
+              #######################################
+              
+              # Author: 
+              # Date: {{now}}
+              # License:
+              # Version:
+              # Description: This script...
+              # Usage: script.sh [options] arg1 arg2 ...
+              
+              # Last updated: 
+              
+              # Set help variables
+              SCRIPT_NAME=$(basename "$0")
+              VER="1.0.0"
+              HOME=$(dirname "$0")
+              
+              ########
+              # Help #
+              ########
+              
+              # Display the help message and exit
+              function help() {
+                cat << EOF
+              Usage: $SCRIPT_NAME [options] --dir --input ...
+              
+              This script performs the steps necessary to detect any human DNA contamination in processed fastq files.
+              
+                Required parameters:
+                  -d, --dir            path to working directory
+              
+                Input and output:
+                  -i, --input          path to input fastq file or directory
+                  -o, --output         path to output directory (default: current)
+                  -c, --config         config.sh file
+              
+                Help information:
+                  -h, --help     Display this help message and exit.
+                  -v, --version  Display the script version and exit.
+              EOF
+                exit 0
+              }
+              
+              ##############
+              # Parameters #
+              ##############
+              
+              # exit on error
+              
+              set -e
+              
+              # show help if run with no parameters
+              
+              if [[ $# -eq 0 ]]; then
+                help
+                exit 1
+              fi
+              
+              # Display the script version and exit
+              function version() {
+                echo "$SCRIPT_NAME version $VER"
+                exit 0
+              }
+              
+              # Parse command line options
+              while [[ $# -gt 0 ]]; do
+                case $1 in
+                  -h | --help  ) help; exit 1 ;;
+                  -v | --version  ) version; exit 1 ;;
+              
+                  -d | --dir    ) dir="$2";     shift ;;
+                  -i | --input ) IN="$2";  shift ;;
+              
+                  -o | --output) OUT="$2"; shift ;;
+                  -c | --config) CONFIG="$2";    shift ;;
+              
+                  *) echo "Invalid parameter: $1." help; exit 1 ;;
+                esac
+                shift
+              done
+              
+              #########################
+              # Checking requirements #
+              #########################
+              
+              # Working directory
+              
+              if [[ -z "$dir" ]]; then
+                echo "Directory not provided. Missing parameter: -d|--db"
+                exit 1
+              fi
+              
+              if [[ ! -d "$dir" ]]; then
+                echo "Provided directory $dir does not exist."
+                exit 1
+              fi
+              
+              # get absolute path
+              dir=$(readlink -m $dir)
+              
+              echo "# Directory: $dir"
+              
+              # input
+              
+              if [[ -z "$IN" ]]; then
+                input=/data/
+              fi
+              
+              if [[ ! -f "$IN" ]] && [[ ! -d "$IN" ]]; then
+                echo "Input file or directory $input does not exist."
+                exit 1
+              fi
+              
+              IN=$(readlink -m $IN)
+              
+              if [[ -f $IN ]]; then
+                echo "# Input file: $IN"
+              else
+                echo "# Input directory: $IN"
+              fi
+              
+              # output directory
+              
+              if [[ -z "$OUT" ]]; then
+                output=.
+              elif [[ -f "$OUT" ]]; then
+                echo "Output should be a directory not a file."
+                exit 1
+              elif [[ ! -d "$OUT" ]]; then
+                mkdir -p $OUT
+              fi
+              
+              OUT=$(readlink -m $OUT)
+              
+              echo "# Output directory: $OUT"
+              
+              # config file
+              
+              if [[ -z "$CONFIG" ]]; then
+                CONFIG="$HOME"/config.sh
+              fi
+              
+              if [[ ! -f "$CONFIG" ]]; then
+                echo "Config file $CONFIG does not exist."
+                exit 1
+              fi
+              
+              CONFIG=$(readlink -m $CONFIG)
+              
+              if [[ -f $CONFIG ]]; then
+                echo "# Config file: $CONFIG"
+              fi
+              
+              ####################
+              # Main script body #
+              ####################
+              
+              # navigate to output folder
+              
+              cwd=$(pwd)
+              cd $output
+    vars:
+      - name: now
+        type: date
+        params:
+          format: "%d %M %y %H:%M"
+
+##############
+# R snippets #
+##############
+
+  - trigger: ";r"
+    replace: |
+              ```{r}
+              #| eval: true
+              #| label: $|$
+
+              ```
+
+# Play sound upon command completion
+  - trigger: ":beep"
+    replace: |
+                  # Beep to indicate completion (Linux)
+                  system("aplay /usr/share/sounds/alsa/raspberry.wav")
+
+  - trigger: ":trim"
+    replace: |
+              mutate_at(vars(everything()), str_trim) %>%
+              mutate_at(vars(everything()), type.convert, as.is =T) %>%
+
+  - trigger: ":rm"
+    replace: rm(list = ls())
+
+  - trigger: ":png"
+    replace: |
+                  png(paste("/directory_path/filename", "project_suffix", format(Sys.time(), "%b_%d_%Y_%I:%M"), ".png", sep = "_"), width = 1200, height = 800)
+
+                    plot(df)
+
+                  dev.off()
+
+  - trigger: ":seed"
+    replace: "141205"
+
+  - trigger: ":file"
+    replace: |
+              paste0(WORK,paste("/directory_path/filename", "Mumbai_ID14768", format(Sys.time(), "%b_%d_%Y_%I:%M"), "NC.txt", sep = "_"))
+
+  - trigger: ":match"
+    replace: "x$new.column <- y$column.to.add.to.x[match(x$column.to.match, y$column.to.match)]"
+
+  - trigger: "rstart"
+    replace: "source('~/Work/00-Code/02-R/setup.r')"
+
+  - trigger: ":for"
+    replace: |
+              for (i in $|$) {
+                # statements
+              }
+
+  - trigger: ":boxplot"
+    replace: |
+              png("./plot.png")
+
+              df %>%
+                dplyr::filter(!is.na(.y)) %>%
+                  ggplot(aes(x = , y = , fill = )) +
+                    geom_boxplot(position=position_dodge(5), outlier.shape=NA) +
+                    stat_boxplot(geom = "errorbar") +
+                    geom_jitter(aes(color = ), size = 1.5,stat = "identity", width = 0.35) +
+                    xlab("x") +
+                    ylab("y") +
+                    scale_y_continuous(breaks = seq(0, plyr::round_any(max(df$y), 100, f = ceiling), by = plyr::round_any(max(df$y), 100, f = ceiling)/10)) +
+                    theme(legend.title = element_text()) +
+                    scale_color_manual("legend", values = c("red", "black")) +
+                    scale_fill_manual("legend", values = c("#66C2A5", "#FC8D62", "#8DA0CB"))
+
+              dev.off()
+
+  - trigger: ":cluster"
+    replace: |
+              #set up a backend cluster
+              n.cores <- parallel::detectCores() - 2
+              my.cluster <- parallel::makeCluster(n.cores, type = "FORK")
+              #register it to be used by %dopar% from the foreach package
+              doParallel::registerDoParallel(cl = my.cluster)
+
+##########################
+# Misc. Coding snippets  #
+##########################
+
+  - trigger: :sep
+    replace: |
+              #################
+              #      $|$      #
+              #################
+
+  - trigger: ":espanso"
+    replace: |
+                - trigger: ""
+                  replace: |
+
+
+#############################
+# Rmarkdown/Quarto snippets #
+#############################
+
+  - trigger: ":callout"
+    replace: |
+              ::: {.callout-tip}
+
+              :::
+
+##################
+#      Misc      #
+##################
+
+  - trigger: ":zoom"
+    replace: |
+              https://cornell.zoom.us/j/4829704571?pwd=2NCbAs6YKvOSZxlh2u42Pb72IVkbOk.1 
+              Meeting ID: 482 970 4571 Passcode: microbes!
+
+###################
+# Dynamic Matches #
+###################
+
+# Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%b %d %I:%M:%S %p %Z %Y"
+
+# Generate Zettel UID timestamp
+  - trigger: ":id"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d-%m-%y-%H:%M_"
+
+  - trigger: ":today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d-%m-%y "
+
+# Email sign off assuming username contains first name in format of First_last
+  - trigger: ":br"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'printf "All the best,\n$(getent passwd `whoami` | cut -d : -f 5 | cut -d _ -f 1)"'
+
+#################
+#     Latex     #
+#################
+
+  - trigger: "=>"
+    replace: "$\\Rightarrow$"
+
+  - trigger: "<="
+    replace: "$\\Leftarrow$"
+
+############
+# General  #
+############
+
+  - trigger: "epi "
+    replace: "epidemiology"
+
+  - trigger: "bt "
+    replace: "between "
+
+  - trigger: "esp "
+    replace: "especially "
+
+  - trigger: "bc "
+    replace: "because "
+
+  - trigger: "spp "
+    replace: "species "
+
+  - trigger: "mech "
+    replace: "mechanisms "
+
+  - trigger: "aa "
+    replace: "amino acid "
+
+  - trigger: "inc "
+    replace: "increased "
+
+  - trigger: "w/ "
+    replace: "with "
+
+  - trigger: "w/o "
+    replace: "without "
+
+  - trigger: "exp "
+    replace: "expression "
+
+  - trigger: "tf "
+    replace: "transcription factor "
+
+  - trigger: "conc "
+    replace: "concentration "
+
+  - trigger: "mem "
+    replace: "membrane "
+
+  - trigger: "pn "
+    replace: "protein "
+
+  - trigger: "pre "
+    replace: "previous "
+
+  - trigger: "res "
+    replace: "resistance "
+
+  - trigger: "deg "
+    replace: "degradation "
+
+  - trigger: "+-"
+    replace: " ± "
+
+  - trigger: "cc "
+    replace: " (@REF) "
+
+  - trigger: "cc."
+    replace: " (@REF)."
+
+  - trigger: "cc,"
+    replace: " (@REF),"
+
+  - trigger: "chems "
+    replace: "chemicals "
+
+  - trigger: "calc "
+    replace: "calculate "
+
+  - trigger: "var "
+    replace: "variable "
+
+  - trigger: "vars"
+    replace: "variables"
+
+  - trigger: "seq "
+    replace: "sequencing "
+
+  - trigger: "16S"
+    replace: "16S rRNA gene "
+
+  - trigger: "mb "
+    replace: "microbiota "
+
+  - trigger: "diff "
+    replace: "different "
+
+  - trigger: "disim "
+    replace: "dissimilarity "
+
+  - trigger: "dissim "
+    replace: "dissimilarity "
+
+#########################
+# Obsidian.md shortcuts #
+#########################
+
+# callouts (pairs with the callout manager plugin)
+
+  - trigger: ":figure"
+    replace: |
+              > [!figure]- *Figure 1*: $|$ 
+              > ![[file.png]] 
+
+  - trigger: ":ai"
+    replace: |
+              > [!ai-generated]-
+              > {{clipboard}}
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+
+  - trigger: ":q"
+    replace: |
+              > [!question]-
+              > $|$
+              > #inbox #question
+
+  - trigger: ":wiki"
+    replace: |
+              > [!wikipedia]
+              > {{clipboard}}
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+
+  - trigger: ":!"
+    replace: |
+              > [!thought]-
+              > {{clipboard}}$|$
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+
+  - trigger: ":source"
+    replace: "([source]({{clipboard}}))"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+
+  - trigger: ":red"
+    replace: "<font style='color:#e78284'>$|$</font>"
+
+  - trigger: ":search"
+    replace: |
+              ```query
+              context: true
+              renderMarkdown: true
+              sort: byCreatedTime
+              title: 
+
+              ```  
+
+  - trigger: ":moc"
+    replace: |
+              ---
+              links: 
+              tags: MOC
+              ---
+
+              The purpose of this MOC is... 
+              
+              ---
+
+              ```dataview
+              list from [[]] and !outgoing([[]])
+              ```
+              
+              ### Templates
+              - 
+
+#####################
+# Inline latex math #
+#####################
+
+  - trigger: ":approx"
+    replace: "$\\approx$"
+
+  - trigger: ":pm"
+    replace: "$\\pm$"
+
+  - trigger: ":alpha"
+    replace: "$\\alpha$"
+
+  - trigger: ":beta"
+    replace: "$\\beta$"
+
+  - trigger: ":delta"
+    replace: "$\\delta$"
+
+  - trigger: ":chi"
+    replace: "$\\chi$"
+
+  - trigger: ":Delta"
+    replace: "$\\Delta$"
+
+  - trigger: ":mu"
+    replace: "$\\mu$"
+
+  - trigger: ":sigma"
+    replace: "$\\sigma$"
+
+  - trigger: ":theta"
+    replace: "$\\theta$"
+
+  - trigger: ":null"
+    replace: "$H_0$"
+
+#######################
+# Scientific Notation #
+#######################
+
+  - trigger: ":ul"
+    replace: $\muL$
+
+  - trigger: " ul "
+    replace: " uL "
+
+  - trigger: " ml "
+    replace: " mL "
+
+  - trigger: " ml "
+    replace: " mL "
+
+  - trigger: " ml "
+    replace: " mL "
