@@ -18,6 +18,7 @@ This repository aims to provide a collection of configuration files for differen
 
 The repository is organized by program. Each directory contains configuration files for a specific program. Here's an example structure:
 
+```
 .
 ├── bash
 │ ├── .bashrc
@@ -30,6 +31,7 @@ The repository is organized by program. Each directory contains configuration fi
 ├── git
 │ └── .gitconfig
 └── README.md
+```
 
 ## Usage
 
@@ -54,6 +56,6 @@ Ensure your configuration file is well-documented and easy to understand.
 
 ## License
 
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+This repository is licensed under the Creative Commons. See the LICENSE file for more details.
 
 Happy configuring!
