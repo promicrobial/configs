@@ -1,3 +1,6 @@
 {
-    "colorscheme": "catppuccin-frappe"
+    "colorscheme": "simple",
+    "filetype": "md",
+    "mkparent": true,
+    "softwrap": true
 }

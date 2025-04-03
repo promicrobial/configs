@@ -1,5 +1,14 @@
 {
     "Alt-/": "lua:comment.comment",
+    "Alt-d": "command:definition",
+    "Alt-f": "command:format",
+    "Alt-k": "command:hover",
+    "Alt-q": "Quit",
+    "Alt-r": "command:references",
+    "Alt-s": "Save,Quit",
+    "CtrlP": "command:palettero",
+    "CtrlShift-G": "command-edit:help",
+    "CtrlSpace": "command:lspcompletion",
     "CtrlUnderscore": "lua:comment.comment",
-    "Alt-s": "Save,Quit"  // Example of chaining commands
+    "F4": "command:jumptag"
 }
